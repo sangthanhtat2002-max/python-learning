@@ -15,7 +15,7 @@ wait = WebDriverWait(driver, 15)
 
 # click login
 wait.until(
-    EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Login']"))
+    EC.element_to_be_clickable((By.XPATH, "//button[text()='Login']"))
 ).click()
 
 # chờ input email xuất hiện
